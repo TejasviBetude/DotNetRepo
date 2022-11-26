@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details of Product purchased by customer</h2>
+
+<ul>
+    <li>Customer ID: <span> @Model.Customer.CId</span> </li>
+    <li>Customer Name:<span>@Model.Customer.Name</span></li>
+    <li>Customer Gender:<span>@Model.Customer.Gender</span></li>
+    <li>Customer Address:<span>@Model.Customer.City</span></li>
+    <li>ID of the Product purchased:<span>@Model.Product.PId</span></li>
+    <li>Product Name:<span>@Model.Product.PName</span></li>
+    <li>Product Model:<span>@Model.Product.Model</span></li>
+    <li>Product Price:<span>@Model.Product.Price</span></li>
+    <li>Supplier of the product:<span>@Model.Supplier.SName</span></li>
+    <li>Supplier ID: <spam>@Model.Supplier.SId</spam></li>
+    <li>Supplier Name: <spam>@Model.Supplier.SName</spam></li>
+    <li>Supplier Gender: <spam>@Model.Supplier.SGender</spam></li>
+    <li>Supplier's Address:<span> @Model.Supplier.SAddress</span></li>
+
+</ul>
+
